@@ -2,6 +2,8 @@ import pandas as pd
 import openai
 import json
 import os
+import streamlit as st
+
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -82,6 +84,7 @@ def extract_skills_from_csv(csv_path):
         print(f"File not found: {csv_path}")
         return set(), {}
 
+    df = df.head(2)
     skills_taxonomy = set()
     individual_skills = {}
 
@@ -89,6 +92,28 @@ def extract_skills_from_csv(csv_path):
         skills = call_openai_api(row['Skill Sets'])
         skills_taxonomy.update(skills)
         individual_skills[row['Name']] = skills
+
+    return skills_taxonomy, individual_skills
+
+
+def extract_skills_from_csv_in_realtime(uploaded_file):
+    # Read the entire CSV
+    # Read the entire CSV
+    df = pd.read_csv(uploaded_file)
+
+    skills_taxonomy = set()
+    individual_skills = {}
+    table_placeholder = st.empty()  # Create a placeholder for the table
+
+    # Process row-by-row
+    for index, row in df.iterrows():
+        skills = call_openai_api(row['Skill Sets'])
+        skills_taxonomy.update(skills)
+        individual_skills[row['Name']] = ', '.join(skills)
+
+        # Update the table in the placeholder
+        current_df = pd.DataFrame(list(individual_skills.items()), columns=['Name', 'Skills'])
+        table_placeholder.table(current_df)
 
     return skills_taxonomy, individual_skills
 
