@@ -105,6 +105,8 @@ def extract_skills_from_csv_in_realtime(uploaded_file):
     individual_skills = {}
     table_placeholder = st.empty()  # Create a placeholder for the table
 
+    df = df.head(5)
+
     # Process row-by-row
     for index, row in df.iterrows():
         skills = call_openai_api(row['Skill Sets'])
