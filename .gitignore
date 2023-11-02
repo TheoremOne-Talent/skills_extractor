@@ -137,7 +137,6 @@ fabric.properties
 *.msg
 *.pages
 *.rtf
-*.txt
 *.wpd
 *.wps
 
