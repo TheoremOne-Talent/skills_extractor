@@ -82,7 +82,7 @@ def extract_skills_from_csv(csv_path):
         print(f"File not found: {csv_path}")
         return set(), {}
 
-    df = df.head(2)
+    df = df.head(10)
     skills_taxonomy = set()
     individual_skills = {}
 
