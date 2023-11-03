@@ -98,7 +98,6 @@ def extract_skills_from_csv(csv_path):
 
 def extract_skills_from_csv_in_realtime(uploaded_file):
     # Read the entire CSV
-    # Read the entire CSV
     df = pd.read_csv(uploaded_file)
 
     skills_taxonomy = set()
