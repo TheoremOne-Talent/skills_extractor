@@ -89,7 +89,7 @@ def extract_skills_from_csv(csv_path):
     skills_taxonomy = set()
     individual_skills = {}
 
-    for index, row in df.iterrows():
+    for _, row in df.iterrows():
         skills = call_openai_api(row['Skill Sets'])
         skills_taxonomy.update(skills)
         individual_skills[row['Name']] = skills
@@ -105,7 +105,7 @@ def extract_skills_from_csv_in_realtime(uploaded_file):
     individual_skills = {}
     table_placeholder = st.empty()  # Create a placeholder for the table
 
-    df = df.head(5)  # For demonstration, take only the first 5 rows
+    # df = df.head(5)  # For demonstration, take only the first 5 rows
 
     # Process row-by-row
     for index, row in df.iterrows():
