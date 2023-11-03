@@ -1,0 +1,72 @@
+Initial DataFrame:
+   ID\n(vlookup formula)  ...  Unnamed: 25
+0                    NaN  ...          NaN
+1                    NaN  ...          NaN
+2                    NaN  ...          NaN
+3                    NaN  ...          NaN
+4                    NaN  ...          NaN
+5                    NaN  ...          NaN
+
+[6 rows x 26 columns]
+
+Skills for Abbey Kumapayi: ['Problem solving', 'Design Implementation', 'React', 'Javascript', 'HTML', 'CSS']
+Traceback (most recent call last):
+  File "/Users/abhijoysarkar/Projects/ai/theoremone/skills/utils.py", line 193, in <module>
+    main()
+  File "/Users/abhijoysarkar/Projects/ai/theoremone/skills/utils.py", line 169, in main
+    skills_taxonomy, individual_skills = extract_skills_from_csv(csv_path)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhijoysarkar/Projects/ai/theoremone/skills/utils.py", line 84, in extract_skills_from_csv
+    skills = call_openai_api(row['Skill Sets'])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhijoysarkar/Projects/ai/theoremone/skills/utils.py", line 60, in call_openai_api
+    response = openai.ChatCompletion.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhijoysarkar/Projects/ai/theoremone/skills/venv/lib/python3.11/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhijoysarkar/Projects/ai/theoremone/skills/venv/lib/python3.11/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 155, in create
+    response, _, api_key = requestor.request(
+                           ^^^^^^^^^^^^^^^^^^
+  File "/Users/abhijoysarkar/Projects/ai/theoremone/skills/venv/lib/python3.11/site-packages/openai/api_requestor.py", line 289, in request
+    result = self.request_raw(
+             ^^^^^^^^^^^^^^^^^
+  File "/Users/abhijoysarkar/Projects/ai/theoremone/skills/venv/lib/python3.11/site-packages/openai/api_requestor.py", line 606, in request_raw
+    result = _thread_context.session.request(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhijoysarkar/Projects/ai/theoremone/skills/venv/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhijoysarkar/Projects/ai/theoremone/skills/venv/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhijoysarkar/Projects/ai/theoremone/skills/venv/lib/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/abhijoysarkar/Projects/ai/theoremone/skills/venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 791, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhijoysarkar/Projects/ai/theoremone/skills/venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 537, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/abhijoysarkar/Projects/ai/theoremone/skills/venv/lib/python3.11/site-packages/urllib3/connection.py", line 461, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
