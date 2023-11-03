@@ -69,30 +69,37 @@ def call_openai_api(skills_text):
 
 
 def extract_skills_from_csv(csv_path):
-    """
-    Extract skills from a CSV file using OpenAI API.
+    # Read the CSV
+    df = pd.read_csv(csv_path)
+    # df = df.head(6)  # For demonstration, take only the first 5 rows
 
-    Args:
-        csv_path (str): Path to the CSV file.
+    print(f"Initial DataFrame:\n{df}\n")  # Debugging print
 
-    Returns:
-        set: Skills taxonomy.
-        dict: Individual skills.
-    """
-    try:
-        df = pd.read_csv(csv_path)
-    except FileNotFoundError:
-        print(f"File not found: {csv_path}")
-        return set(), {}
-
-    df = df.head(2)
-    skills_taxonomy = set()
+    raw_skills = set()
     individual_skills = {}
-
+    
+    # Process each row to gather skills
     for _, row in df.iterrows():
         skills = call_openai_api(row['Skill Sets'])
-        skills_taxonomy.update(skills)
+        print(f"Skills for {row['Name']}: {skills}")  # Debugging print
+
+        raw_skills.update(skills)
         individual_skills[row['Name']] = skills
+
+    # Once all raw skills are gathered, cluster them
+    skills_list = list(raw_skills)
+    clusters = cluster_skills(skills_list)
+    print(f"Clusters: {clusters}\n")  # Debugging print
+
+    skill_to_cluster_label = {skill: cluster_name for cluster_name, skills in clusters for skill in skills}
+
+    # Update individual_skills with the clustered skills names
+    for name, skills in individual_skills.items():
+        clustered_skills = [skill_to_cluster_label.get(skill, skill) for skill in skills]
+        individual_skills[name] = list(set(clustered_skills))  # Remove duplicates
+
+    # Get the skills taxonomy from the cluster labels
+    skills_taxonomy = set(skill_to_cluster_label.values())
 
     return skills_taxonomy, individual_skills
 
@@ -156,6 +163,18 @@ def main():
     print("\nIndividual Skills:")
     for name, skills in individual_skills.items():
         print(f"{name}: {', '.join(skills)}")
+
+    # Save skills_taxonomy in a .txt file
+    with open("skills_taxonomy.txt", "w") as f:
+        for skill in skills_taxonomy:
+            f.write(skill + "\n")
+
+    # Save individual_skills in a .csv file
+    individual_skills_df = pd.DataFrame({
+        'Name': individual_skills.keys(),
+        'Skills': [', '.join(skills) for skills in individual_skills.values()]
+    })
+    individual_skills_df.to_csv("individual_skills.csv", index=False)
 
 
 if __name__ == "__main__":
