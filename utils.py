@@ -107,7 +107,7 @@ def extract_skills_from_csv_in_realtime(uploaded_file):
     current_df = pd.DataFrame(columns=['Name', 'Skills'])
     table_placeholder = st.empty()
     
-    # df = df.head(5)  # For demonstration, take only the first 5 rows
+    df = df.head(5)  # For demonstration, take only the first 5 rows
     
     # Initialize progress bar and status text
     progress_bar = st.progress(0)
