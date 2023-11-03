@@ -101,62 +101,48 @@ def extract_skills_from_csv_in_realtime(uploaded_file):
     # Read the entire CSV
     df = pd.read_csv(uploaded_file)
 
-    skills_taxonomy = set()
-    individual_skills = {}
-    table_placeholder = st.empty()  # Create a placeholder for the table
-
-    # df = df.head(5)  # For demonstration, take only the first 5 rows
-
-    # Process row-by-row
-    for index, row in df.iterrows():
-        skills = call_openai_api(row['Skill Sets'])
-        skills_taxonomy.update(skills)
-        individual_skills[row['Name']] = skills  # Store raw skills temporarily
-
-    # Cluster skills
-    skills_taxonomy_list = list(skills_taxonomy)
-    clusters = cluster_skills(skills_taxonomy_list)
+    raw_skills = set()
     
-    # Create a mapping from the original skills to the cluster labels
-    skill_to_cluster_label = {skill: cluster_name for cluster_name, skills in clusters for skill in skills}
-
-    # Update skills_taxonomy to only include unique cluster labels
-    skills_taxonomy = set(skill_to_cluster_label.values())
-
-    # Update individual_skills with the clustered skills names
-    for name, skills in individual_skills.items():
-        clustered_skills = [skill_to_cluster_label.get(skill, skill) for skill in skills]
-        individual_skills[name] = ', '.join(set(clustered_skills))  # Remove duplicates and convert to string
-
-    # Update the table in the placeholder
-    current_df = pd.DataFrame(list(individual_skills.items()), columns=['Name', 'Skills'])
-    table_placeholder.table(current_df)
-
-    return skills_taxonomy, individual_skills
-
-"""
-def extract_skills_from_csv_in_realtime(uploaded_file):
-    # Read the entire CSV
-    df = pd.read_csv(uploaded_file)
-
-    skills_taxonomy = set()
-    individual_skills = {}
-    table_placeholder = st.empty()  # Create a placeholder for the table
-
-    df = df.head(5)
-
+    # Create a placeholder dataframe and placeholder for the table
+    current_df = pd.DataFrame(columns=['Name', 'Skills'])
+    table_placeholder = st.empty()
+    
+    # df = df.head(5)  # For demonstration, take only the first 5 rows
+    
+    # Initialize progress bar and status text
+    progress_bar = st.progress(0)
+    status_text = st.empty()
+    total_rows = len(df)
+    
     # Process row-by-row
     for index, row in df.iterrows():
         skills = call_openai_api(row['Skill Sets'])
-        skills_taxonomy.update(skills)
-        individual_skills[row['Name']] = ', '.join(skills)
-
-        # Update the table in the placeholder
-        current_df = pd.DataFrame(list(individual_skills.items()), columns=['Name', 'Skills'])
+        raw_skills.update(skills)
+        
+        # Cluster skills immediately
+        skills_list = list(raw_skills)
+        clusters = cluster_skills(skills_list)
+        skill_to_cluster_label = {skill: cluster_name for cluster_name, skills in clusters for skill in skills}
+        clustered_skills = [skill_to_cluster_label.get(skill, skill) for skill in skills]
+        skills_str = ', '.join(set(clustered_skills))
+        
+        # Add the processed data to current_df and display the table
+        current_df.loc[index] = [row['Name'], skills_str]
         table_placeholder.table(current_df)
+        
+        # Update progress bar and status text
+        progress = (index + 1) / total_rows
+        progress_bar.progress(progress)
+        status_text.text(f"Processing row {index + 1} of {total_rows}...")
 
-    return skills_taxonomy, individual_skills
-"""
+    # Update skills_taxonomy to only consist of the cluster names
+    skills_taxonomy = set(skill_to_cluster_label.values())
+    
+    # Clear status text
+    status_text.text(f"Processed {total_rows} rows!")
+    
+    return skills_taxonomy, current_df
+
 
 def main():
     csv_path = "skills.csv"  # Replace with the path to your CSV

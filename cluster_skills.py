@@ -42,7 +42,7 @@ def cluster_skills(skills):
 
     # Convert clusters to a list with assigned names
     cluster_list_with_names = [(cluster_names[label], cluster) for label, cluster in clusters.items()]
-
+    print(cluster_names)
     return cluster_list_with_names
 
 if __name__ == '__main__':
