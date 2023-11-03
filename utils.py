@@ -104,14 +104,24 @@ def extract_skills_from_csv_in_realtime(uploaded_file):
     skills_taxonomy = set()
     individual_skills = {}
     table_placeholder = st.empty()  # Create a placeholder for the table
-
+    
     df = df.head(5)  # For demonstration, take only the first 5 rows
-
+    
+    # Initialize progress bar and status text
+    progress_bar = st.progress(0)
+    status_text = st.empty()
+    total_rows = len(df)
+    
     # Process row-by-row
     for index, row in df.iterrows():
         skills = call_openai_api(row['Skill Sets'])
         skills_taxonomy.update(skills)
         individual_skills[row['Name']] = skills  # Store raw skills temporarily
+        
+        # Update progress bar and status text
+        progress = (index + 1) / total_rows
+        progress_bar.progress(progress)
+        status_text.text(f"Processing row {index + 1} of {total_rows}...")
 
     # Cluster skills
     skills_taxonomy_list = list(skills_taxonomy)
@@ -132,7 +142,11 @@ def extract_skills_from_csv_in_realtime(uploaded_file):
     current_df = pd.DataFrame(list(individual_skills.items()), columns=['Name', 'Skills'])
     table_placeholder.table(current_df)
 
+    # Clear status text
+    status_text.text(f"Processed {total_rows} rows!")
+    
     return skills_taxonomy, individual_skills
+
 
 def main():
     csv_path = "skills.csv"  # Replace with the path to your CSV
