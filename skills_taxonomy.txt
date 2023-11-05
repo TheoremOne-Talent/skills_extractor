@@ -1,8 +1,1199 @@
-Design
+Requirements Gathering
+teamleadership
+MongoDB
+Information Architecture
+Domain Driven Design
+Go - proficient
+Database Design
+Relational Databases
+Business strategy
+Jenkins
+ElasticSearch
+agilementoring
+Collaborative
+QBR
+Commitment
+prototyping
+Proactive
+Pragmatic
+video production
+MOBILE
+Electrical Engineering
+Does not want to work with .net
+Version One
+TDD
+PostGres
+wireframe prototyping, UAT, beta testing
+Terraform
+Automation
+LESS
+Organizational development and management
+Client Management
+Managing Product Roadmap
+Code quality
+Programming
+Fast Learner
+Analytical
+Service Design
+C
+Test documentation
+Backend developer (with some FE experience as well)
+Concept Innovation
+Magento
+dotnetcore
+JQuery
+prioritization
+robot framework
+Transformation
+agiletraining
+Developer
+JSON & XML
+Continuous Integration
+webpack
+Creative Direction
+HP LoadRunner
+SOW
+Design and UX knowledge
+Thematic Analysis
+Native
+digital marketing
+Common Softwares (IDE's, Microsoft Suite, Google Suite, Slack, etc)
+Octopus
+Business Models
+TypeScript
+wire framing
+Goal Setting and Organizational goals alignment
+Project P&L
+Kubernetes
+Sentry
+Project Delivery
+Web Securities
+Business Development
+Cybersecurity
+Innovation Management
+Delivery Management
+Technical Architect Mobile
+Web Services: WCF, Restful, SOAP
+Manual QA
+Go
+Accounting
+Defect Management
+API design
+Customer Experience
+stakeholder communication
+Analysis
+Software delivery
+storytelling
+Software engineering
+Customer Support
+Deno
+SAFe
+Functional Programming
+Client Server Applications
+Discovery
+Change Frameworks OD
+NgRx
+Waterfall
+leanux
+sequelize
+Continuous Integration / Continuous Delivery
+designsystems
+PowerPoint
+.Net Core
+Sales Enablement
+PL/SQL
+Customer Discovery
+Design Reviews
+Client engagement
+Non-Violent Communication (NVC)
+Frontend Engineer
+Informatica
+Sales
+SDLC (Software Development Life Cycle)
+T-SQL
 Javascript
-Artificial Intelligence
+Apigee
+Wants to learn mobile - native or javascript
+WinForms
+Google Cloud Platform
+Good communicator
+graphql
+Observation Studies
+Shell Scripting
+OAuth 2.0
+Business Casing
+ASP .NET Core
+Business intelligence
+Zephyr
+Client Relationship Management
+ETL
+Contact Center as a Service (CCaaS) Solutions
+Razor Pages
+Requirement and business analysis
+Geospatial Information Systems (Smallworld) - 8 years - Electrical distribution network
+Conceptual Writing
+GraphQL (Javascript)
+Infrastructure tooling
+neo4j
+Strong networking ability
+Coding
+teamcoaching
+ERP Systems
+Pearl
+Operations
+UI Design
+Agile and Waterfall SDLC
+customer interviews
+ci/cd
+JIRA
+scrum master
+Crystal
+Cross-platform Native mobile application development with React Native
+User story writing
+Ruby on Rails
+Account Management
+Express
+Test driven development
+Full stack software development
+Confident Leader
+UIKit
+Digital Painting
+Creativity
+invision
+emerging tech
+Relationship building
+Agile execution
+front-end
+Cross Browser Testing
+3D
+Structured Decision Making
+Apache Kafka
+working in highly ambiguous environments/projects
+Team Collaboration
+UX
+Qualitative Research Methods
+story mapping
+nosql
+React - learning
+Bash
+beta program management
+Design, review and implementation of test cases
+Elixir
+Project estimation
+Bringing order to chaos
+css-modules
+Windows
+Client Communication
+Low level infrastructure
+Data storage
+User testing labs
+heapanalytics
+Team player
+Rightscale
+Quality Management
+Agile Leadership
+Training and workshop design
+Blue Prism (Automation Software)
+People management
+userempathy
+Design strategy
+Start-ups
+node.js
+data-driven prioritization and decision making
+SRE
+swagger
+Software Testing Life Cycle (STLC)
+Requirement Gathering
+KPI development & reporting
+self taught (learn new things very quick)
+Android
+k8s
+Software Development Cycle
+In-depth analysis
+Feedback-seeker
+PyTest
+User-Centric Design
+wpf
+Complex Selling
+postgresql
+Adobe Experience Manager
+Strategy
+Cypress
+Financial Industry
+Responsive Web Design
+Research
+vue
+Mac
+Automated Testing
+presentation skills
+NoSQL (MongoDb, Redis, Firestore)
+Finances and management (MSc. Intl. Business and Management)
+Dotnet
+product visioning
+agile development practices
+Tealium (CDP Software)
+Sybase
+Deep understanding of Tech Requirements
+engineering
+Proposals
+Strategic Planning
+training
+JavaScript/Typescript
+redis
+apollo-server
+Performing Market Assessments
+Inbox Management
+WebSockets
+Strategic storytelling
+Change Management
+Quality strategy
+Design presentation and communication
+sinatra
+Graphic design
+SQL Service
+UI/UX
+Collaborative mindset
+Software version control and semantic version releases using Git and Subversion
+miro
+Business Systems Analysis
+Creation of highly configurable Micro services for Enterprise application development using NodeJs
+Protractor
+Business process
+Animation when helpful
+analysts
+Troubleshooting software
+Code Reviews
+DynamoDB
+API documentation
+Solution architecture
+Network Administrator
+Looker
+Cloud architecture
+Enterprise Implementation
+Trouble Shooting
+Don’t wanna do Chef and Puppet
+Sass
+LucidChart
+Executive-level management
+Task Analysis
+SQL expert knowledge
+QA
+solr
+Team work
+Ruby - bread and butter
+AngularJS
+Design Ops
+Design
+feature rollout
+Django
+documentation writing
+CSS - some experience
+REST
+CircleCi
+Documentation
+Team Staffing
+Markup languages
+Design Systems
+Cultural Enrichment/Design
+Google Data Studio
+theme-ui
+Typography
+CAD
+Technical skills
+mobile apps
+Roadmap development
+yarn
+0 to 1 Product development
+software development
+Strategic technology planning
+product strategy
+Behavioral science
+App Design
+Analytics enablement
+User research
+Proficiency in tools: JIRA, AHA, Roadmunk, Adobe XD, Miro, Figma, Github
+Software Design
+Regulations and Compliance
+Rider
+Looking for growing professionally
+Teamwork
+Leadership formation
+Product Planning
+strategicplanning
+Netezza
+Design across multiple platforms - Sketch, Figma
+consulting / coaching
+userflow
+JPA
+Process and Mechanics of delivery
+Facebook Ads
+analytics / tracking / KPIs
+Fiddler Proxy
+Node/NestJs
+API Automation
+Product thinking/strategy
+Linux
+Remote Usability Testing
+Analytics
+User interface design
+Business analysis
+Bug Tracking
+Backlog management
+Process definition and development
+ASP.NET WEB Api
+Trello
+testware creation
+Process improvement
+Google Tag Manager
+PHP
+Progressive Web Apps
+ARCHITECTURE
+Adaptive Communication
+gitlab
+Coaching
+Web Testing
+koa
+Agile project management (Scrum, Kanban)
+Ability to influence
+Technical expertise
+Ethical hacking
+Azure DevOps
+Github Actions
+innovation
+dynamicallytypedlanguages
+Experience Design
+product growth
+Risk Assessment
+Microsoft Test Manager
+Ruby - learning
+scrum
+IIS
+Presentations
+lean product development
+SQL Server (and DB engines in general)
+parallel programming
+Ideation
+TFS
+Ionic Framework
+product roadmap
+creating innovative products
+Studying for Google Level Exam Certified
+UX/UI - team building
+mentoring
+Execute visual UI
+CI/CD & Test Automation
+Cross-Functional Leadership
+Documenter
+marketing and graphic design
+react-hooks
+System Design
+Xcode Cloud
+Goal oriented
+Windows UI
+Execute and document UX Research (validation and testing)
+TypeORM
+Value stream management
+Navigable Prototyping
+Competitive Analysis
+Optimizing Workflows
+Spring
+Quality Advocacy
+Analysis , Functional Decomposition and breakdown
+ORMs: Entity Framework, Dapper
+process diagrams
+enterprise software
+ColdFusion
+Issues solver
+Wireframes
+Manual Testing
+QA testing (manual, not w/QA automation software)
+agile frameworks
+WCF
+audience profiling
+UX research
+react-context
+Salesforce
+react
+Lean Requirements Definition
+Perl
+Cucumber.io
+Svelte
+Mongo
+Always curious
+Nest.js
+Web Design
+Web Accessibility (WCAG)
+Organize
 Sales / Client Partner
+MS Office
+Operating and distributed systems
+OCM
+Chai HTTP
+Tag Concepts
+Load testing
+Text analyzing
+Incident management
+Road map and long term Planning
+Lead Generation
+Cloud Migration/Optimisation
+Negotiation
+objectorientedprogramming
+RPC
+Html5
+Sales Processes
+Backend Development
+Business agility transformation
+DEVOPS
+Patient
+market analysis
 Communication
+AI & ML
+Feature Mapping
+creating process & custom tools for teams
+Feature Prioritization and Roadmap Planning
+marketecture
+Diagramming and simplifying complex processes
+ADKAR
+Confluence
+NoSQL (DynamoDB, CosmosDB)
+Data & Usage Analysis (Google Analytics, Excel, Data Studio, Pendo)
+Documenting
+team-focused
+Security and performance
+Basic SQL
+API integration
+FRONTEND
+Product Design
+Agile Software Development
+Java - a while ago
+Wireframes - Lo to High Fi with dev notes
+Arel
+User Testing
+Leadership and team Organization
+Axure RP
+Sprint Planning
+GCP
+sidekiq
+Technical Analysis
+SDLC
+Architecting testing solutions
+A little Go
+Project Strategy
+CSS3
+Jira Administration
+Conflict resolution
+Spotify
+Data Visualization
+Strategic Execution
+React-Query
+Playwright
+spreadsheeting
+UI Automation
+Decisive mindset
+SDLC adoption
+Relationships with Engineering
+Strategic positioning
+problemsolving
+Backlog Grooming
+Agile product management
+mySQL
+Web
+Implementations
+testing management
+Azure (including Functions)
+Continuous learning
+Engagement
+Wireframing
+Critical and strategic thinking
+Organization design
+Solutions Architect Professional Level Exam Certified - AWS
+Web technologies
+Page Object Model
+User Story Development
+Bootstrap
+Team Leadership
+Desktop testing
+Value Propositions
+Visual communication
+Design Patterns
+Qualitative User Research
+problem-solver
+Agile project management methodologies
+agiletransformation
+Digital Transformation
+Product Development
+Organization of content
+Power BI
+electron-js
+Team empowerment
+Agile transformation and maintenance
+Scrum Master Certified
+IT
+Strategic Decision-Making
+Active Record
+agile / scrum / sprint planning
+azure
+Xcode
+Recruitment strategy
+Writing
+.NET
+Style Guides
+Ownership
+iOS mobile development (Swift and Objective-C) - 12 years
+Research techniques
+Event-Driven Design
+Mobile Testing
+Creation of high quality, secure and highly performant code that aces Kiuwan quality assurance metrics
+Self-awareness
+functional testing
+Adobe InDesign
+Programming (Java, C#, Javascript/Typescript)
+Spring Cloud
+user stories
+stateX
+system integration
+Lean program management
+AWS (HIPAA-compliant, including Lambda)
+Angular 2+
+New Relic
+risk management
+Headless CMS
+sql
+Spark
+DroneCI
+growth strategy
+minitest
+frontend development (React)
+Software Testing
+organization
+customer jobs-to-be-done
+WebDriverIO
+Responsibility
+Self learning
+StencilJS
+Management
+Mobile (Android)
+Dev deliverables and assets
+Ruby with/without Rails
+Novice developer in Javascript, CSS, HTML
+Business case development
+Product Prioritization & Definition
+ecommerce (shopify)
+collaborating with engineering teams
+Security
+API testing
+Github
+Communication bridge between tech & non-tech
+Program turnaround specialist
+OpenAPI
+Business communications
+HTML/JavaScript/CSS
+Retail Industry
+Interaction Design
+Testing
+Databases: Sybase, SQL Server
+Technical knowledge (in relation to being a PM)
+Solution Design
+C#/.NET
+csharp
+lean
+BDD (Gherkin language)
+Vue.js
+Microsoft Suite
+Snowflake
+Systems Thinking
+gitlab ci/cd
+Visio
+SCSS
+ef-core
+Product Discovery
+Creating User Stories & Epics
+C# (ASP.NET, ASP.NET Core, etc.)
+Analytical thinking
+processengineering
+event sourcing
+mobiledesign
+Serverless Architecture
+Cross-functional teamwork
+Government Contracting
+Excellent communication
+Digital Product Strategy
+Agile Estimation , planning , grooming and backlog management
+Apache Cordova
+Design Generalist
+user engagement
+ISTQB
+graphene
+agileandlean
+emotion-js
+rapid prototyping
+Actionable Agile
+Loyalty Technology
+Recruiting
+Product Ownership and Management
+High-level Engineering
+Can leverage data from user interviews
+Figma expert
+Architecture Analysis
+Math Science
+Idea/Insight Management
+Product marketing
+Javascript (Node, React, Angular, etc.)
+Test Planning
+L&D
+critical thinking
+Mockups
+Data Migration
+mentoring and coaching
+User experience
+teamplayer
+Strong business acumen
+Independent
+product management
+Adaptability
+Market Research
+Quality assurance
+Photoshop/Illustrator
+High-level hardware design
+DevOps Transformation
+Revenue Operations
+K6
+Visual Design
+Stored Procedures
+Full stack
+Maintaining process control
+TestFlight
+amazonwebservicesknowledge
+Golang
+oop
+Compilers
+team management
+JS
+Technical breadth of experience in (Mobile, Backend web, Desktop, Games)
+Programming Languages : GoLang , java , C#
+Kotlin
+npm
+Copyediting
+Quick reaction to situations
+Version control systems such as TFS, Git, BitBucket
+ServiceNow
+Really technical
+Technical and integration analysis
+Azure: Application Insights, Key Vault, App Service (Web Apps, API Apps, Web Jobs)
+React Native - Mobile
+NextJS
+Objective C
+dbt
+open-api
+feature prioritization
+Reading JSON
+UI
+Product Research
+Engineering Management
+Designing and building distributed, fault tolerant infrastructure
+metrics driven product management
+Vendor Integration
+Sharepoint
+express.js
+UX Flows
 Technical Knowledge
-HTML
-Project Management
+JAVA
+Test Complete
+Operational & Technical Excellence
+Entrepreneurship
+Skilled in multiple programming languages and technologies
+Go - some Go
+Technical Diagramming
+casl
+Brevity
+Precise
+Jira & Azure devops
+likes UI/UX
+Heuristic Evaluation
+Gradle
+User Accepting Testing
+Team Lead
+Rspec
+SQLServer
+Software development (C# .NET, Javascript, C/C++, Java)
+Product leadership
+Content strategy
+project management
+Web Services
+Business process modeling
+Team Engagement
+Mobile/Web Manual Test
+Algorithms
+flexible
+e-commerce
+sequel
+Client Libraries - Hardware
+Thought leadership
+Matlab
+Software Deployment
+Hiring and training
+Programming Patterns
+Teradata appliances
+HP QTP
+Storybook
+nameko
+service blueprint
+Frontend Development - Javascript Angular React
+Building teams
+FrontEnd testing
+Team Development
+Organizational skills
+data diagrams
+Git
+ASP NET
+SQL Server
+Ruby
+jasmine
+Program management
+memcached
+Mobile App development
+Consultative Sales
+familiar with various programming languages
+Mocha
+Haskell
+cross-functional teams engagement and planning
+Workshopping
+video editing
+Spring Boot
+Ethnographic research
+Nginx
+Ionic
+TestRail
+ReactJS
+MVC
+Big Data
+business model creation and validation
+Microsoft Orleans
+Building trust with direct reports
+MessageQueueing
+Backend Engineering
+ReactNative
+JSONRPC
+schedules
+Business Analyst
+Gap Analysis
+abstract
+Scripting (Code)
+Business development/account management
+databases
+Python
+C+
+Go - DevOps
+Jira/Confluence
+process optimization
+Calendar Management
+leadership
+Datadog
+Agile
+Experimentation
+DesignOps
+Collaboration workshops
+MSSQL
+Back-end development (Node JS)
+supportiveness
+Team Oriented
+Delphi
+SEO
+Rest Assured
+storyteller
+Marketing
+.NET Framework
+Writing code
+Restfull
+parameterized testing
+Solution Engineer
+Design documentation/developer handoff
+Html
+Agile testing
+Servant Leadership
+Leadership / Growth
+Microsoft Coded UI
+Interest in Predictive Algorithms
+SQL and NoSQL database design, normalization, clustering, load balancing, deployment and maintenance
+Visual Studio/Code
+Mobile first projects
+Agile coaching
+Visual Basic
+Frontend Frameworks (React, Vue, Angular)
+High quality of work
+Laravel
+DevSecOps
+communicative
+Design Process
+backend development (Node.js - JavaScript/TypeScript)
+NoSQL Databases
+design sprint
+RxJs
+Javsascript
+user acceptance testing
+Technical writing
+Wants to learn react
+Technical requirements analysis
+Business planning/use case planning
+Attention to details
+Analytical skills
+Coordination
+UX Writing
+Accessibility
+Wireframing and Prototyping
+RabbitMQ
+React-Native
+Management tools as Jira and Azure DevOps (Boards, Backlogs, Sprints, etc.)
+Well rounded - motion
+TS
+Performance testing
+c#
+managing and working with stakeholders at all levels and departments
+release management
+localization management
+Drupal
+Interpersonal Communication
+SWIFT
+Database Administrator
+Outspoken
+Hybrid Mobile - Xamarin
+adaptive
+changemanagement
+Remote Team Leadership
+Webdriver
+Low and High fidelity design
+VB.NET
+Product/Market Fit
+Growth
+Rally
+Requirement Specs
+Analysis (Requirements)
+open mind
+techlead
+Strategic mindset
+artillery
+User experience design
+CSS Postprocessors
+Data Warehousing
+Career coaching
+Cloud
+Product
+Creative
+Stencil
+People Analytics & Talent Management 3.0
+Datastage
+Microfrontends
+workshop facilitation
+Empathy Mapping
+Linux Systems Administration
+Management consulting
+Stakeholder management
+Data Analysis
+Test automation
+Root cause analysis and Problem Solving
+SQL (SQL Server, PostgreSQL, MySQL)
+Continuous Integration (CI) / Continuous Delivery (CD)
+Agent Experience
+Source Control
+Agility
+Manage/teach people
+AWS
+Does not want to work with C#
+Does not want to work with Java
+zustand
+ADF-Azure Synapse
+Career Development
+HR
+Illustration
+DevOps - some system admin
+Artificial Intelligence
+Problem-solving skills
+Back End
+Azure cloud
+JSONAPI
+Optimization
+Jest
+Data interpretation and analysis
+Empathy
+Scala
+Measurement design and frameworks
+JMeter
+Regression Testing
+User-Driven Needs Analysis
+Rescue
+refactoring
+Game Development
+Business-technology alignment
+deep understanding of product life cycle
+System Specifications Documents (SSD)
+Grafana
+Business Planning
+Specflow
+KANBAN
+Entity Framework Core
+Design workshops
+jss
+Facilitating, communication and coordinating cross team projects and initiatives
+Agile at Scale (SAFE SPC)
+Postman
+Entity Framework
+styled-components
+Angular
+Database administration
+RDB
+Product Strategy & Visioning
+.Net Core, .Net Framework, ASP .NET Web API, MVC .Net, ADO .Net, LINQ, Unit Testing
+Agile methodologies
+microservices
+hiring/mentorship
+Growth Hacking
+Customer Relationship Management Systems (CRM)
+Quality Standard
+Software
+Critical thinker
+NuGet
+detailoriented
+Disco Hips
+Data-Driven
+API
+Defining and Tracking Success Metrics
+Requirements Elicitation
+Performance Management
+Selenium
+Agile Ceremonies
+Microsoft Technologies and development
+IOT projects
+Basics of Databricks
+Firebase
+Electronics
+Visualization and Modelling techniques
+Systems Administrations
+Java/SpringBoot
+MediatR
+IA diagramming
+Executive Coaching & Elite-Performance
+overseeing resources
+Containers
+TS/JS
+roadmapping
+understanding basic HTML
+Culture & Emotional Intelligence
+Wordpress
+project planning and tracking
+FE - Java Script some experience
+Design, review and implementation of test plans
+REST APIs
+Financial Services
+OpenID Connect
+Continuous Development and Integration (CI/CD) for mobile - CircleCI, Azure DevOps
+design & iteration
+Platform Migration
+Processes and systems
+UI testing
+Saas
+Engagement Management
+Illustrations
+Cloud Computing
+DDD
+Interface Development
+EventStoreDB
+Branding / Brand guidelines
+Engineering (problem solving/curiosity)
+Css
+iOS
+TRPC
+Detail oriented
+Test Cases
+DesignThinking
+MacOS
+Proto.io, CSS/HTML
+consulting
+Teacher
+Time management
+SOLID
+Ansible
+Experimentation Driven Development
+appium
+Automation testing (Cypress, Selenium (Nodejs))
+Concept development / rapid prototyping
+DevOps - Unix / Linux
+product monetization
+Marketing Technology
+insomnia
+Smart Contract development
+market mapping
+Full-stack development
+Self-organized
+redux
+CI/CD and test-driven development using Jest, Github Actions and Kubernetes
+tech leadership
+API gateway
+PowerBI
+Actionscript
+qualityassurance
+Machine Learning
+Emotional Management
+Troubleshooting
+Photoshop
+Client relations
+agileprinciples
+Defining Acceptance Criteria
+HTML/CSS
+Backend
+Audio recording, editing and mixing
+oracle
+Operating Model Design
+Usability Testing
+Obeya
+Open Authentication/Authorization
+Giving product feedback
+Customer Journey Mapping
+UI/UX Design
+Clean Code
+lead engineering
+Kafka
+Remote Unmoderated Interviews
+UX design
+people-oriented
+Engineer Design - technical design and documentation
+OKR
+data structures
+Tech strategy and delivery
+Gatsby.js
+Good communication skills
+Mac development
+Dapper
+Backend Development - C# .Net SQL/NoSQL
+Scripting (Video)
+A little IOs
+Technical Project Management
+Mobile Automation
+Copywriting
+Rust - learning
+Motivation
+Bug Reporting
+Apollo Client
+Software development automation for USSD applications
+budgets
+Managing QA teams, manual and automated
+Adobe Illustrator
+Honesty
+SAML
+vite
+Django Admin
+risk & mitigation strategies
+AspNet MVC
+MBA
+Cassandra
+Apache
+New feature development
+System Analysis
+API Development
+Compliance
+Newman
+Azure Service-Bus
+SoftwareArchitecture
+Flash
+Adobe XD
+system architecture
+Clear communicator
+Public Speaking
+TA
+CI/CD (Jenkins, GitActions)
+UAT
+Infrastructure
+docker
+working with client teams
+BBD
+value-focused
+pricing strategies
+Business Design
+Concise
+Adobe Creative Cloud
+Design Implementation
+HP Quality Center
+Good interpersonal skills
+Results-Oriented
+Simple and effective communication, with the reader/listener in mind
+Learner
+Facilitation
+Front end tooling using the MEAN, MERN, MEVN and LAMP Stacks: Mongo Db, Express, Angular, ReactJs, SvelteJs, VueJs, NodeJs and PHP (Laravel)
+BigQuery
+Multi-disciplinary knowledge
+Requirement Development
+Web development
+Design thinking
+backenddevelopment
+BDD
+Project Scoping
+Suitescript
+Software Architecture
+bug discovery
+Forecasting
+node
+Written and verbal communication
+Traceability Matrix
+Testing techniques
+Operations Engineering
+Editorial design
+SQLAlchemy
+some Oracle & Oracle forms
+Full end-to-end product development
+client collaboration
+System Administrator
+Nest
+portfoliomanagement
+agileleadership
+Computer Systems Administration
+HAProxy
+Single Source Authoring tools (Madcap, RoboHelp)
+userfriendly
+Process
+Windows Services Administration
+UX strategy
+Postproduction support
+figma
+webprogramming
+Charles Proxy
+Software development technical knowledge
+User Journey Stories
+Big Query / SQL
+User and Customer Empathy
+SQLite
+C# project Template
+problem solving
+version control
+businessanalysis
+Sales Methodologies
+Cucumber
+Ed Tech
+productanalytics
+Software as a Service (SaaS)
+Context switching
+Dart
+Debugging
+Unit Testing
+development
+API design and System Integration using sockets, REST, SOAP and GraphQl and Robots
+Black box testing
+Business acumen
+Cloud Deployment Technologies
+Sketch
+Process and workflow analysis
+Frontend Development
+REST API pedant
+Photography
+Analytical problem solving
+Decision making
+Event-driven microservices architectures
+Project Planning
+Rust
+Fortran
+Scrum roles - scrum master and product owner
+Deployment
+networking
+Object Oriented Programming
+Next
+UI/UX Design - Highly Proficient in Figma and Photoshop for Mockups and Photo Manipulation
+Flutter
+Planning

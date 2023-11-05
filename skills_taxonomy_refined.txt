@@ -1,0 +1,193 @@
+Go
+Team Leadership
+koa
+Magento
+SDLC
+Scripting (Code)
+Stakeholder management
+T-SQL
+Continuous Integration
+Data Analysis
+Rust - learning
+Angular
+lean
+JIRA
+Html
+Wireframing and Prototyping
+Presentations
+some Oracle & Oracle forms
+Apache Kafka
+Patient
+version control
+Web Testing
+Business process modeling
+project management
+Object Oriented Programming
+Programming
+Electronics
+TS
+Technical Knowledge
+Express
+Mockups
+Creativity
+Github
+RxJs
+Operations
+Feedback-seeker
+JS
+Adobe XD
+Finances and management (MSc. Intl. Business and Management)
+Automated Testing
+Detail oriented
+Business planning/use case planning
+React-Native
+Communication
+Ionic
+DEVOPS
+SQLServer
+Ruby with/without Rails
+Delivery Management
+Lead Generation
+user stories
+Web technologies
+Webdriver
+Software Architecture
+problem solving
+Algorithms
+Power BI
+Process
+NoSQL Databases
+Containers
+Infrastructure
+Teradata appliances
+Critical thinker
+Good communicator
+jss
+Growth
+Documentation
+Sprint Planning
+Code quality
+Microsoft Suite
+Roadmap development
+OpenAPI
+Mac
+Charles Proxy
+Protractor
+data diagrams
+SRE
+Bug Tracking
+UI Design
+System Administrator
+sequelize
+UI/UX
+digital marketing
+Analytical skills
+3D
+apollo-server
+Web Accessibility (WCAG)
+Css
+Coordination
+Software Development Cycle
+Automation
+Datastage
+Nginx
+Systems Thinking
+PostGres
+Node/NestJs
+market analysis
+iOS
+miro
+Empathy
+Backend Development
+Engagement
+Business agility transformation
+Frontend Development - Javascript Angular React
+User experience design
+userflow
+Design
+vue
+scrum master
+Razor Pages
+cross-functional teams engagement and planning
+REST
+Testing
+Software Deployment
+Brevity
+JSONAPI
+Observation Studies
+Full-stack development
+Self learning
+Product Planning
+Quality Management
+Time management
+Database administration
+DDD
+Figma expert
+Dapper
+ASP .NET Core
+Business analysis
+Content strategy
+Project Delivery
+engineering
+Qualitative Research Methods
+flexible
+sql
+Agile
+Web Services
+Analytics
+react
+CI/CD (Jenkins, GitActions)
+Cloud Migration/Optimisation
+Strategic Decision-Making
+innovation
+Writing
+testing management
+Self-organized
+BDD
+TRPC
+mentoring and coaching
+ADKAR
+API
+Team Collaboration
+Agile project management methodologies
+Cucumber
+feature prioritization
+RabbitMQ
+risk management
+Compliance
+Back-end development (Node JS)
+User research
+front-end
+user acceptance testing
+Mobile (Android)
+storyteller
+video editing
+Security
+Customer Experience
+Client Management
+Confident Leader
+C#/.NET
+ETL
+CircleCi
+Traceability Matrix
+Simple and effective communication, with the reader/listener in mind
+Cloud
+Spring Boot
+Stencil
+leadership
+GraphQL (Javascript)
+Looker
+Illustrations
+gitlab
+azure
+development
+Hiring and training
+changemanagement
+Spark
+Software
+consulting
+Design workshops
+Sales
+Requirements Gathering
+Sybase
+Programming (Java, C#, Javascript/Typescript)

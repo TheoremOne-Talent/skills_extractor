@@ -4,6 +4,8 @@ import json
 import os
 import streamlit as st
 from cluster_skills import cluster_skills
+import warnings
+warnings.filterwarnings("ignore")
 
 from dotenv import load_dotenv
 load_dotenv()
@@ -67,7 +69,6 @@ def call_openai_api(skills_text):
         print(f"Error calling OpenAI API: {e}")
         return []
 
-
 def extract_skills_from_csv(csv_path):
     # Read the CSV
     df = pd.read_csv(csv_path)
@@ -77,8 +78,8 @@ def extract_skills_from_csv(csv_path):
 
     raw_skills = set()
     individual_skills = {}
-    
-    # Process each row to gather skills
+    skills_taxonomy = set()
+
     for _, row in df.iterrows():
         skills = call_openai_api(row['Skill Sets'])
         print(f"Skills for {row['Name']}: {skills}")  # Debugging print
@@ -86,23 +87,34 @@ def extract_skills_from_csv(csv_path):
         raw_skills.update(skills)
         individual_skills[row['Name']] = skills
 
-    # Once all raw skills are gathered, cluster them
+        # Update individual_skills.csv in real-time
+        individual_skills_df = pd.DataFrame({
+            'Name': individual_skills.keys(),
+            'Skills': [', '.join(skills) for skills in individual_skills.values()]
+        })
+        individual_skills_df.to_csv("individual_skills.csv", index=False)
+
+    # Cluster skills after gathering all of them
     skills_list = list(raw_skills)
+    print(f"Total unique skills gathered: {len(skills_list)}")
     clusters = cluster_skills(skills_list)
-    print(f"Clusters: {clusters}\n")  # Debugging print
 
     skill_to_cluster_label = {skill: cluster_name for cluster_name, skills in clusters for skill in skills}
+    
+    # Update the skills_taxonomy
+    skills_taxonomy = set(skill_to_cluster_label.values())
+
+    # Write to skills_taxonomy.txt
+    with open("skills_taxonomy.txt", "w") as f:
+        for skill in skills_taxonomy:
+            f.write(skill + "\n")
 
     # Update individual_skills with the clustered skills names
     for name, skills in individual_skills.items():
         clustered_skills = [skill_to_cluster_label.get(skill, skill) for skill in skills]
         individual_skills[name] = list(set(clustered_skills))  # Remove duplicates
 
-    # Get the skills taxonomy from the cluster labels
-    skills_taxonomy = set(skill_to_cluster_label.values())
-
     return skills_taxonomy, individual_skills
-
 
 def extract_skills_from_csv_in_realtime(uploaded_file):
     # Read the entire CSV
@@ -114,7 +126,7 @@ def extract_skills_from_csv_in_realtime(uploaded_file):
     current_df = pd.DataFrame(columns=['Name', 'Skills'])
     table_placeholder = st.empty()
     
-    df = df.head(5)  # For demonstration, take only the first 5 rows
+    # df = df.head(6)  # For demonstration, take only the first 5 rows
     
     # Initialize progress bar and status text
     progress_bar = st.progress(0)
