@@ -20,7 +20,7 @@ def calculate_silhouette(k, pca_embeddings):
     silhouette_avg = silhouette_score(pca_embeddings, cluster_labels)
     return silhouette_avg
 
-def cluster_skills(skills):
+def cluster_skills(skills, n_clusters=2):
     print("[INFO] Encoding skills...")
     model = SentenceTransformer('all-MiniLM-L6-v2')
     embeddings = model.encode(skills)
@@ -39,7 +39,10 @@ def cluster_skills(skills):
     pca_embeddings = pca.fit_transform(embeddings)
 
     # Adjusting K to potentially allow more clusters
-    K = range(2, len(skills))
+    if n_clusters is None or n_clusters < 3:
+        K = range(2, len(skills))
+    else:
+        K = range(2, n_clusters)
     print(f"[INFO] Calculating silhouette scores for k values: {list(K)}")
     
     # Parallelize silhouette score calculation
