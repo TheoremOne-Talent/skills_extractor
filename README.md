@@ -9,9 +9,9 @@ This codebase helps to extract skills of people from a CSV files and create tags
 3. [app.py](app.py)
 4. [individual_skills.csv](individual_skills.csv) - A dataframe consists of 2 columns `Name` and `Skills` for every employee.
 5. [skills_taxonomy.txt](skills_taxonomy.txt) - List of Skills that were generated from the initial dataset after clusterization.
-6. [postprocessing.py](postprocessing.py) - In case you need a more refined output, i.e., make the skill taxonomy more broader or more specific. It generates [individual_skills_refined.csv](individual_skills_refined.csv) and [skills_taxonomy_refined.txt](skills_taxonomy_refined.txt)
+6. [postprocessing.py](postprocessing.py) - In case you need a more refined output, i.e., make the skill taxonomy more broader or more specific. It generates [individual_skills_refined.csv](individual_skills_refined.csv) and [skills_taxonomy_refined.txt](outputs/skills_taxonomy_refined.txt)
 7. [individual_skills_refined.csv](individual_skills_refined.csv) - It has the same format as [individual_skills.csv](individual_skills.csv) after running [postprocessing.py](postprocessing.py).
-8. [skills_taxonomy_refined.txt](skills_taxonomy_refined.txt) - It has the same format as [skills_taxonomy.txt](skills_taxonomy.txt) after running [postprocessing.py](postprocessing.py).
+8. [skills_taxonomy_refined.txt](outputs/skills_taxonomy_refined.txt) - It has the same format as [skills_taxonomy.txt](skills_taxonomy.txt) after running [postprocessing.py](postprocessing.py).
 9. [logs.txt](logs.txt) - Consists of the logs of an example run of [utils.py](utils.py)
 
 ## Instructions to run
@@ -20,7 +20,7 @@ This codebase helps to extract skills of people from a CSV files and create tags
 3. `python3 -m venv venv`
 4. `pip install -r requirements.txt`
 5. Run `python3 utils.py > logs.txt 2>&1`
-6. To get a more refined output run `python3 postprocessing.py`
+6. To get a more refined output run `python3 postprocessing.py --n_clusters 100`
 
 ## Streamlit application link
 The application is deployed in this link: **[Skill Extractor UI](https://skill-extractor.streamlit.app/)**
