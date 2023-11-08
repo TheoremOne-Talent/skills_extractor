@@ -3,7 +3,10 @@ import pandas as pd
 import logging
 from cluster_skills import cluster_skills
 import os
-from helpers import format_and_sort_skills, write_skills_to_file, get_timestamped_filename, ensure_directory_exists
+from helpers import (format_and_sort_skills, 
+                     write_skills_to_file, 
+                     get_timestamped_filename, 
+                     ensure_directory_exists)
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -26,15 +29,16 @@ def read_skills_taxonomy(file_path):
         logging.error(f"Error reading {file_path}: {e}")
         raise
 
-def cluster_and_label_skills(skills_list, n_clusters=200):
+def cluster_and_label_skills(skills_list, n_clusters=200, use_pca=True):
     """
     Cluster and label the skills using the provided clustering function.
     :param skills_list: A list of skills to be clustered.
     :param n_clusters: Number of clusters to divide the skills into.
+    :param use_pca: Whether to use PCA for dimensionality reduction before clustering.
     :return: A dictionary mapping each skill to its cluster label.
     """
     try:
-        clusters = cluster_skills(skills_list, n_clusters=n_clusters, use_pca=True)
+        clusters = cluster_skills(skills_list, n_clusters=n_clusters, use_pca=use_pca)
         return {skill: cluster_name for cluster_name, skills in clusters for skill in skills}
     except Exception as e:
         logging.error(f"Error clustering skills: {e}")
@@ -62,6 +66,8 @@ def main():
     parser = argparse.ArgumentParser(description='Process and cluster skills.')
     parser.add_argument('--n_clusters', type=int, default=200,
                         help='Number of clusters to divide the skills into.')
+    parser.add_argument('--use_pca', type=lambda x: (str(x).lower() == 'true'), default=True,
+                        help='Use PCA for dimensionality reduction (default: True).')
     args = parser.parse_args()
 
     output_directory = "./outputs"
@@ -75,8 +81,10 @@ def main():
         skills_list_unique = read_skills_taxonomy(skills_taxonomy_file)
         logging.info(f"Unique skills count: {len(skills_list_unique)}")
 
-        # Cluster skills with the specified number of clusters from the command line
-        skill_to_cluster_label = cluster_and_label_skills(skills_list_unique, n_clusters=args.n_clusters)
+        # Cluster skills with the specified number of clusters and PCA option from the command line
+        skill_to_cluster_label = cluster_and_label_skills(skills_list_unique,
+                                                      n_clusters=args.n_clusters,
+                                                      use_pca=args.use_pca)
 
         # Format and sort the skills taxonomy
         skills_taxonomy = format_and_sort_skills(set(skill_to_cluster_label.values()))
